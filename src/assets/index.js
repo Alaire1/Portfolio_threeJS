@@ -2,6 +2,9 @@ import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import web_icon from "./web_icon.png"
+import software_icon from "./software_icon.png"
+import art_icon from "./art_icon.png"
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -34,6 +37,9 @@ export {
   creator,
   mobile,
   web,
+  software_icon,
+  web_icon,
+  art_icon,
   github,
   menu,
   close,
