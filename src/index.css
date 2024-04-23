@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Jersey+10&family=Maven+Pro:wght@400..900&family=Monoton&family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Spice&family=Jersey+10&family=Jersey+15&family=Maven+Pro:wght@400..900&family=Monoton&family=Permanent+Marker&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,29 +25,21 @@
   font-family: "Jersey 10", sans-serif;
 }
 .bg-grey{
-  background-color: rgb(28, 29, 29);
+  background-color: #2c2e2e;
 }
 
 .bg-lg {
-  background-color: rgb(94, 104, 104);
+  background-color: #464e4e;
 }
 .text-yellow{
   color: #FFEA00;
 }
-.black-gradient {
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.text_secondary{
+  color : #ede8ff;
 }
-
+.text_links:hover {
+  color: yellow !important;
+}
 .yellow-gradient {
   background: #FFEA00;
   background: linear-gradient(-90deg, #FFEA00 0%, rgba(60, 51, 80, 0) 100%);
@@ -62,21 +56,6 @@
   background: -webkit-linear-gradient(-90.13deg, #ddc433 1.9%, #4a70da 97.5%);
 }
 
-.orange-text-gradient {
-  background: #f12711; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #f12711,
-    #f5af19
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #f12711,
-    #f5af19
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .green-text-gradient {
   background: #11998e; /* fallback for old browsers */

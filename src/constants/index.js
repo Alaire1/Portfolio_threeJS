@@ -10,9 +10,9 @@ import {
   tailwind,
   c,
   cpp,
-  carrent,
-  jobit,
-  tripguide,
+  PortfolioBook,
+  TelephoneNumberValidator,
+  Cub3D,
   threejs,
 } from "../assets";
 
@@ -20,6 +20,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -86,7 +90,7 @@ const projects = [
   {
     name: "Telephone Number Checker",
     description:
-      "Simple checker of phone number (US) format",
+      "In this Free Code Camp project, I had to create simple checker of phone number (US) format",
     tags: [
       {
         name: "JavaScript",
@@ -101,13 +105,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: TelephoneNumberValidator,
     source_code_link: "https://github.com/Alaire1/TelephoneNumberValidatorFCC",
   },
   {
-    name: "Palindrome Checker",
+    name: "Portfolio Book",
     description:
-      "In this Free Code Camp project I am checking if given word is a palindorme(read from the fron and the end is the same).",
+      "Portfolio that has been constructed as an interactive book, that can be opened. Pages inside contain pictures with descriptions and links to the projects.",
     tags: [
       {
         name: "JavaScript",
@@ -122,28 +126,24 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: PortfolioBook,
     source_code_link: "https://github.com/Alaire1/PalindromeCheckerFCC",
   },
   {
-    name: "Trip Guide",
+    name: "Cub3D",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Cub3D is a coding project from 42School that dives into raycasting, a method for rendering 3D environments. Built here a game engine akin to Wolfenstein 3D, where the world is made of squares. The project allows for implementing textures, walls, etc. .It's a deep dive into the world of 3D graphics creation.",
     tags: [
       {
-        name: "nextjs",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MiniLibX ",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: Cub3D,
     source_code_link: "https://github.com/",
   },
 ];
