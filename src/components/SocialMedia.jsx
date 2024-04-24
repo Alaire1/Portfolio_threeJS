@@ -5,47 +5,26 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-    >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-lg rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-      >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
-      </div>
-    </motion.div>
-  </Tilt>
-);
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faCodepen, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom'; // Import Link for routing
 
 const Socials = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText }>Socials</h2>
-      </motion.div>
+      <h2 className={styles.sectionHeadText }>Social media</h2>
       <div className="mt-20 flex flex-wrap place-content-evenly">
-        {/* Add the buttons here */}
-        <button className="btn">Button 1</button>
-        <button className="btn">Button 2</button>
-        <button className="btn">Button 3</button>
+        <Link to="https://github.com/Alaire1" target="_blank" className="btn">
+          <FontAwesomeIcon icon={faGithub} className="icon" />
+        </Link>
+        <Link to="https://codepen.io/alaire" target="_blank" className="btn">
+          <FontAwesomeIcon icon={faCodepen} className="icon" /> 
+        </Link>
+        <Link to="https://www.instagram.com/alaire.art/" target="_blank" className="btn">
+          <FontAwesomeIcon icon={faInstagram} className="icon" /> 
+        </Link>
       </div>
     </>
   );
