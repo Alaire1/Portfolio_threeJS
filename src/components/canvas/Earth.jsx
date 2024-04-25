@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./hologram_gezegen/scene.gltf");
+  const earth = useGLTF("./earth_hologram/scene.gltf");
 
   return (
     <primitive object={earth.scene} scale={9} position-y={-12}/>
