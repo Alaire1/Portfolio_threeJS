@@ -1,3 +1,3 @@
 # Portfolio website
 
-![Alt text for your image](image.jpg)
+![Alt text for your image](screenshot_website.png)
