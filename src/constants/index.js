@@ -127,7 +127,7 @@ const projects = [
       },
     ],
     image: PortfolioBook,
-    source_code_link: "https://github.com/Alaire1/PalindromeCheckerFCC",
+    source_code_link: "https://codepen.io/alaire/pen/wvPRaRz",
   },
   {
     name: "Cub3D",
@@ -144,7 +144,7 @@ const projects = [
       },
     ],
     image: Cub3D,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Alaire1/Cub3D_42",
   },
 ];
 
