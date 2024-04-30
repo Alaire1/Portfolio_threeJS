@@ -14,7 +14,7 @@ Copyright: © 2018 Lee Alex Johansson <br>
 License: CC BY 4.0 International License (https://creativecommons.org/licenses/by/4.0/#ref-appropriate-credit) <br>
 Link: [https://sketchfab.com/3d-models/weathered-workstation-dc877404be0445f0a855e37f2747794a] <br>
 
-Who made it: **EmreKazaz**
+Who made it: **EmreKazaz** <br>
 What is it: "hologram gezegen" 3D model <br>
 Copyright: © 2023 EmreKazaz <br>
 License: CC BY 4.0 International License ([https://creativecommons.org/licenses/by/4.0/#ref-appropriate-credit]) <br>
