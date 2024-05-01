@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-lg rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-lg rounded-[20px] sm:py-30 py-10 px-12 min-h-[280px] flex justify-evenly items-center flex-col '
       >
         <img
           src={icon}
@@ -50,11 +50,10 @@ const About = () => {
         I'm a 42 Wolfsburg Software Developer student. My journey with coding has started with 
         making websites and having fun with CSS. Later on joined 42 to expand my skillset and there
         I have learned C and later on C++. In school has finsihed multiple types of projects starting with
-        creating a library, through copying bash terminal to making a game. Currently going back to bettering my 
-        web development skills.
+        creating a library, through copying bash terminal to making a game.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap place-content-evenly'>
+      <div className='mt-20 flex flex-wrap place-content-evenly gap-7'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

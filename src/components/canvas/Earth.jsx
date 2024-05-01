@@ -8,8 +8,8 @@ const Earth = () => {
   const earth = useGLTF("./earth_hologram/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={9} position-y={-12}/>
-  );
+    <primitive object={earth.scene} scale={8} position-y={-12} />
+  )
 };
 
 const EarthCanvas = () => {
