@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
 import web_icon from "./web_icon.png"
 import software_icon from "./software_icon.png"
 import art_icon from "./art_icon.png"
@@ -19,10 +18,12 @@ import cpp from "./tech/cpp.png";
 import PortfolioBook from "./PortfolioBook.png";
 import TelephoneNumberValidator from "./TelephoneNumberValidator.png";
 import Cub3D from "./cub3d.png";
+import logo_school from "./42_Logo.svg";
+
 
 export {
   logo,
-  backend,
+  logo_school,
   software_icon,
   web_icon,
   art_icon,
