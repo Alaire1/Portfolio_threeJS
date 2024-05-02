@@ -49,7 +49,7 @@ const About = () => {
       >
         I'm a 42 Wolfsburg Software Developer student. My journey with coding has started with 
         making websites and having fun with CSS. Later on joined 42 to expand my skillset and there
-        I have learned C and later on C++. In school has finsihed multiple types of projects starting with
+        I have learned C and later on C++. In school has finished multiple types of projects starting with
         creating a library, through copying bash terminal to making a game.
       </motion.p>
 
