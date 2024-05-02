@@ -90,7 +90,6 @@ const experiences = [
     title: "Libft",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "",
     points: [
       "Custom C library",
       "re-implementing common C functions (memory management, strings, etc.) from scratch.",
@@ -100,7 +99,7 @@ const experiences = [
     title: "Ft_printf",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2021 - Feb 2022",
+   
     points: [
       "Replicating functionality of standard C printf function.",
       "Handling variadic arguments to process arguments of different types.",
@@ -121,7 +120,7 @@ const experiences = [
     title: "Get_next_line",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+   
     points: [
       "Reading a file line by line with memory allocation.",
       "Handling potential issues like large files or EOF (End Of File)",
@@ -131,7 +130,7 @@ const experiences = [
     title: "Minitalk",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+   
     points: [
       "Developing a simple client-server application for text communication.",
       "Utilizing signals (SIGUSR1 and SIGUSR2) for message transmission.",
@@ -142,7 +141,7 @@ const experiences = [
     title: "So_long",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+   
     points: [
       "Creating a 2D platformer game.",
       "Implementing basic game mechanics like character movement, collision detection, and item collection.",
@@ -153,7 +152,7 @@ const experiences = [
     title: "Push_swap",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+   
     points: [
       "Sorting an array of integers using an algorithm of choice.",
       "Handling edge cases like empty or single-element arrays",
@@ -165,7 +164,7 @@ const experiences = [
     title: "Philosophers",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+   
     points: [
       "Simulating the classic Dining Philosophers Problem.",
       "Implementing synchronization mechanisms (mutexes, semaphores) to avoid deadlocks.",
@@ -177,7 +176,7 @@ const experiences = [
     title: "Minishell",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+  
     points: [
     "Building a simple command-line interpreter.",
     "Parsing user input to identify commands and arguments.",
@@ -189,7 +188,7 @@ const experiences = [
     title: "NetPractice",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+   
     points: [
       "Configuring a small-scale network using tools like routing tables.",
       "Understanding TCP/IP addressing concepts like subnet masks and CIDR notation.",
@@ -201,7 +200,7 @@ const experiences = [
     title: "Cub3d",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+    
     points: [
       "Rendering a 3D world using raycasting techniques.",
       "Parsing a custom level format file to define the map layout.",
@@ -213,7 +212,7 @@ const experiences = [
     title: "C++ Modules",
     icon: logo_school,
     iconBg: "#FFEA00",
-    date: "Jan 2023 - Present",
+   
     points: [
      
   
